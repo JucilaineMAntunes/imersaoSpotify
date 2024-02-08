@@ -1,0 +1,173 @@
+@media screen and (max-width: 1015px) {
+    .header__search {
+      width: auto !important;
+    }
+  }
+  
+@media screen and (min-width: 1016px) and (max-width: 1140px) {
+    .header__search {
+      width: auto !important;
+    }
+  } 
+  
+  @media screen and (max-width: 768px) and (min-width: 320px){
+    
+    .header__navigation {
+      margin: 1% 0;
+      justify-content: space-around;
+      display: flex;
+      padding: 0.2em 1em;
+      flex-direction: column;
+    }
+
+    .header__search {
+      margin: 0.2em 0.5em 0.5em 0; 
+      height: 0.8em;
+      width: 5rem;
+    }
+
+    .header__search img {
+     margin-left: 0;
+    }
+
+    .header__search input {
+      width: 5rem;
+      padding-right: 0;
+    }
+
+    .arrow-left, .arrow-right {
+      display: none;
+    }
+
+    .header__login .subscribe {
+      width: 4.5rem;
+      font-size: 0.5rem;
+      margin-right: 0.3rem;
+    }
+
+    .header__login .login {
+      width: 3.5rem;
+      font-size: 0.5rem;
+      height: 2rem;
+      flex: 1;
+    }
+    
+    .main-container {
+      margin: 0 0 0 30%;
+    }
+
+    .sidebar {
+      width: 30%;
+      padding: 0 0.3rem;
+    }
+
+    .sidebar nav ul {
+      padding: 0 1em;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .sidebar nav ul li{
+      width: 100%;
+    } 
+
+    .sidebar .logo img {
+      width: 5rem;
+      transition: 0.4s; 
+    }
+
+    .library {
+      padding: 0;
+    }
+
+    .library .library__button {
+      padding: 0.2rem 0.2rem;
+      text-align: center;
+      font-size: 14px;
+      text-align: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+
+    .library .library__content .fa-plus {
+      display: none;
+    }
+
+    .library .library__button .fa {
+      display: none;
+    }
+
+    .section-playlist {
+      margin: 5%;
+      padding: 0;
+    }
+
+    .section-playlist__content .text {
+      width: auto;
+      text-align: center;
+      font-size: 12px;
+    }
+
+    .section-playlist .section-playlist__content {
+      width: auto;
+      margin: 0.5rem;
+    }
+
+    .section-playlist__content .section-playlist__button {
+      width: auto;
+      padding: 0.1em;
+      margin-top: 0;
+    }
+    
+    .languages .languages__button {
+      width: auto;
+      margin: 0;
+      padding: 0.4em;
+    }
+
+    .playlist {
+      flex-wrap: wrap;
+      margin: 0 auto;
+    }
+
+    .playlist .play-container {
+      display: flex;
+      width: 100%;
+    }
+
+    .playlist #greeting {
+      font-size: 1.5rem;
+      display: flex;
+      margin-left: 3rem;
+    }
+
+    .playlist .play-image {
+      width: auto;;
+    }
+
+    .playlist .session {
+      display: none;
+    }
+  
+    .playlist-container {
+      width: 100%; /* Ocupa toda a largura disponível */
+      height: auto; /* Altura automática, ajusta conforme o conteúdo */
+    }
+  
+    .offer__scroll-container {
+      margin: 0;
+      max-height: 76vh;
+    }
+
+    .offer__list-item {
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+      justify-items: start;
+    }
+  
+    .cards {
+      width: 10rem;
+      height: 10rem;
+    }
+  }
